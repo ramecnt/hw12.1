@@ -1,0 +1,93 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:54] "[32mGET /search?s=солнце HTTP/1.1[0m" 308 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:54] "GET /search/?s=солнце HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:30:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:03] "[32mGET /search?s=красивый HTTP/1.1[0m" 308 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:03] "GET /search/?s=красивый HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:06] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл не картинка
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:29] "POST /post HTTP/1.1" 200 -
+INFO:root:Загруженный файл не картинка
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:49] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:58] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:31:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл не картинка
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:32:08] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:05] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:17] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:17] "GET /uploads/images/Conditionals.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:24] "[32mGET /search?s=условия HTTP/1.1[0m" 308 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:24] "GET /search/?s=условия HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:24] "[36mGET /uploads/images/Conditionals.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:41] "[32mGET /search?s= HTTP/1.1[0m" 308 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:41] "GET /search/?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:41] "[36mGET /uploads/images/image_2022-12-09_19-44-56.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:41] "[36mGET /uploads/images/be9d20e996b20bcd09f593947e733df9~c5_720x720.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 17:33:41] "[36mGET /uploads/images/Conditionals.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:09] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:16] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:16] "[33mGET /uploads/images/Conditionals.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:27] "[32mGET /search?s= HTTP/1.1[0m" 308 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:27] "GET /search/?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:27] "[33mGET /uploads/images/Conditionals.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:33] "[32mGET /search?s=lol HTTP/1.1[0m" 308 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:33] "GET /search/?s=lol HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:33] "[33mGET /uploads/images/Conditionals.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:01:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:39:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:39:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:39:47] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:39:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Загруженный файл не картинка
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2022 18:39:56] "POST /post HTTP/1.1" 200 -
